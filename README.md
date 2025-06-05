@@ -22,11 +22,11 @@ cd medical-fine-tuned
 ```
 
 ### 2. Install dependencies
-
+```bash
 pip install torch transformers datasets evaluate tqdm
-
+```
 ### 3. Run the project
-
+```bash
 python project.py
-
+```
 ⚠️ If your system does not have /mnt/d/ or /mnt/e/ paths, modify them in the script to use local paths such as ./outputs/.
