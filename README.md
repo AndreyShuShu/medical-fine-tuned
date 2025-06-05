@@ -20,11 +20,13 @@ The model is trained on 5,000 examples of open-ended medical questions with veri
 git clone https://github.com/AndreyShuShu/medical-fine-tuned
 cd medical-fine-tuned
 
-**### 2. Install dependencies**
+<details>
+### 2. Install dependencies
 
 pip install torch transformers datasets evaluate tqdm
+</details>
 
-**### 3. Run the project**
+### 3. Run the project
 
 python project.py
 
